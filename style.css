@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head_bar{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #256D85;
+}
+
+.head_bar > h1{
+    color: white;
+}
+
+.input_section{
+background-color: #256D85;
+padding: 20px;
+}
+
+.input_section > h2{
+    margin-left: 100px;
+    color: white;
+}
+
+.inputItem{
+    justify-content: center;
+display: flex;
+flex: 1;
+padding: 12px;
+color: white;
+font-size: 16px;
+}
+
+.inputItem > .input{
+    margin: 20px;
+}
+
+.inputItem > .input > label{
+    margin-right: 20px;
+
+}
+
+.inputItem > .input > input{
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+    height: 30px;
+}
+
+.inputCheckButton{
+padding: 10px;
+margin-left: 130px;
+font-size: 16px;
+color: white;
+
+}
+
+.inputCheckButton > .input_inline{
+    justify-content: center;
+}
+
+.inputCheckButton > .input_inline > label{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.inputCheckButton > .input_inline > input{
+    margin-top: 10px;
+}
+
+.inputCheckButton > button{
+    background-color: #A5F1E9;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    border-radius:  6px;
+}
+ 
+ #bookSubmit:hover{
+    background-color: #06283D;
+    color: white;
+}
+
+.search_section {
+    margin: 20px 90px 0px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DFF6FF ;
+}
+
+.search_section > h2 {
+    color: black;
+}
+
+.search_section > form {
+    padding: 16px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 20px;
+}
+
+.search_section > form > label {
+    display: flex;
+    align-items: center;
+}
+
+.search_section > form > input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 2px 2px 6px  rgb(209, 209, 209);
+}
+
+.search_section > form > input:active {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+
+.search_section > form > button {
+    background-color: #256D85;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search_section > form > button:hover {
+    background-color: #5298af;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.all_shelf{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.book_shelf {
+    margin: 16px;
+    width: 43%;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #e0fffc;
+
+}
+
+.book_shelf > h2 {
+    color: black;
+    text-align: center;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf .book_list h3,p {
+    margin: 8px 0;
+    text-transform: capitalize;
+}
+
+.undo-button{
+    width: 160px;
+    height: 26px;
+    color: white;
+    background-color: #256D85;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button{
+    width: 100px;
+    height: 26px;
+    color: white;
+    background-color: #AA2B1D;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.done-button{
+    width: 160px;
+    height: 26px;
+    color: white;
+    background-color: #256D85;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+} 
